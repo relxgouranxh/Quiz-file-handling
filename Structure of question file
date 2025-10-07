@@ -1,0 +1,11 @@
+# HOW TO START THE QUIZ 
+1st Step : create your own question text file that containes questions
+2ns Step : structure of Question should look like this 
+          a) contain main question. eg whats the capital of india 
+          b) contains four options * Delhi
+                                   * Mumbai
+                                   * Uttrakhand
+                                   * Banglore
+          c) correct ans in form of indexing : 0
+3rd step : One line gap to the next Question 
+

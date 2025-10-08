@@ -53,7 +53,7 @@ public class quizapplication {
                 System.out.println("Incorrect answer ");
             }
         }
-        System.out.println("your finale score is : "+score+"/"+questions.size());
+        
         File scorefile=new File("Scorefile.txt");
         try(BufferedWriter br=new BufferedWriter(new FileWriter("Score.txt",true))){
             br.write(playername+"-"+"Score - " +score+"/"+questions.size());
